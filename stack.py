@@ -8,7 +8,7 @@ class Stack:
         self.top = None
         
     def push(self, data):
-        data = Node(data, None)
+        data = Node(data)
         data.next = self.top
         self.top = data
     
